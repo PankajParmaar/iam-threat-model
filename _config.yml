@@ -16,3 +16,8 @@ avatar: https://github.com/pankajparmaar.png
 google_analytics:
   id:
 remote_theme: cotes2046/jekyll-theme-chirpy
+social:
+  name: Pankaj Parmar
+  email: pankaj@example.com
+  links:
+    - https://github.com/pankajparmaar
