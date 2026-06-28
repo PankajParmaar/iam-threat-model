@@ -13,6 +13,6 @@ author:
 avatar: https://github.com/pankajparmaar.png
 
 # Chirpy specific
-theme: minima
 google_analytics:
   id:
+remote_theme: cotes2046/jekyll-theme-chirpy
