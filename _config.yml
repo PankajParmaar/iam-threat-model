@@ -1,0 +1,40 @@
+title: IDAM.CORE
+tagline: Identity & Cloud Security Practitioner | Entra ID • Hybrid Identity • Conditional Access • Zero Trust
+description: Deep-dive production automation scripts, architectural threat registers, and executive briefings for enterprise identity planes.
+
+url: "https://pankajparmaar.github.io"
+baseurl: "/iam-threat-model"
+
+author: Pankaj Parmaar
+email: pankaj@example.com
+
+github: pankajparmaar
+linkedin: pankajparmaar 
+
+theme: jekyll-theme-chirpy
+permalink: /posts/:title/
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
