@@ -38,3 +38,14 @@ defaults:
       type: pages
     values:
       layout: page
+# Pagination & Feed Settings
+paginate: 10
+future: true
+timezone: Asia/Kolkata
+
+# Avatar (Pulls your GitHub profile picture automatically)
+avatar: "https://github.com/pankajparmaar.png"
+
+# Required Plugins
+plugins:
+  - jekyll-paginate
