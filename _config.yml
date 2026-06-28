@@ -11,7 +11,7 @@ email: pankaj@example.com
 github: pankajparmaar
 linkedin: pankajparmaar 
 
-theme: jekyll-theme-chirpy
+remote_theme: cotes2046/jekyll-theme-chirpy
 permalink: /posts/:title/
 markdown: kramdown
 highlighter: rouge
@@ -47,5 +47,3 @@ timezone: Asia/Kolkata
 avatar: "https://github.com/pankajparmaar.png"
 
 # Required Plugins
-plugins:
-  - jekyll-paginate
