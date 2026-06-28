@@ -4,5 +4,9 @@ url: https://pankajparmaar.github.io
 baseurl: "/iam-threat-model"
 lang: en-US
 timezone: Asia/Kolkata
-remote_theme: cotes2046/jekyll-theme-chirpy
-theme: jekyll-theme-chirpy
+avatar: https://github.com/pankajparmaar.png
+social:
+  name: Pankaj Parmar
+  email: pankaj@example.com
+  links:
+    - https://github.com/pankajparmaar
