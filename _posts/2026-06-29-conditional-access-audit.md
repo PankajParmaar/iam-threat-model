@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Programmatic Tenant Diagnostics: Auditing Conditional Access Policy Drift"
-date: 2026-06-29 19:45:00 +0530
+date: 2026-06-29 19:00:00 +0530
 categories: [Entra ID, Conditional Access]
 tags: [powershell, automation, conditional-access, governance]
 author: pankaj
