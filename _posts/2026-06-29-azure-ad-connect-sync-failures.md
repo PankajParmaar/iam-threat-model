@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Troubleshooting Azure AD Connect: Resolving Stale Object Sync Failures"
-date: 2021-03-10 11:15:00 +0530
+date: 2026-06-29 11:15:00 +0530
 categories: [Entra ID, Hybrid Identity]
 tags: [aad-connect, directory-sync, idfix, troubleshooting]
 author: pankaj
