@@ -21,6 +21,7 @@ The core architectural flaw is simple: **The modern authorization graph has no n
 ## Technical Architecture & The Mechanics of the Gap
 
 In a standard user-delegated authentication flow, an application requests an access token from the Microsoft identity platform containing specific scope claims (`scp`). When granted, the resulting JSON Web Token (JWT) establishes the security context entirely on the human subject (`sub`).
+```
 +--------------+      1. Interactive Auth / MFA      +-------------------+
 |  Human User  | ----------------------------------> |  Microsoft Entra  |
 +--------------+                                     +-------------------+
@@ -31,6 +32,7 @@ v                                                       v    (User Context Only)
 |   AI Agent   | ==================================> | Target Repository |
 +--------------+    4. Executes Arbitrary Action     +-------------------+
 Using Valid User Token (Blind)
+```
 When an AI agent consumes this token to parse directories, extract files, or interact with APIs, the token validation process evaluates whether the human user has the rights to perform that action. However, it cannot verify if the *agent* should be the one driving that action. 
 
 ### Why the Token Plane is Blind
