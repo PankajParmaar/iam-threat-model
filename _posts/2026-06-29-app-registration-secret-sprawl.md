@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mitigating App Registration Secret Sprawl within Automation Frameworks"
-date: 2026-06-29 19:00:00 +0530
+date: 2026-06-29 18:00:00 +0530
 categories: [Entra ID, Machine Identity]
 tags: [app-registration, managed-identities, secret-rotation, automation]
 author: pankaj
