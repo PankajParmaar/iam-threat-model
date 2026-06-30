@@ -8,6 +8,7 @@ permalink: /posts/authorization-gap-entra-id-ai-agents/
 author: pankaj
 description: "When an AI agent uses a delegated user token, standard identity checks break silently. This post maps the dual-actor blind spot inside Entra ID and the containment strategy architects need today."
 toc: true
+mermaid: true
 ---
 
 ## TL;DR — What You Need Right Now
